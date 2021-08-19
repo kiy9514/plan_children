@@ -1,0 +1,26 @@
+<html>
+    <head>
+        {% block head %}{% endblock %}
+
+    </head>
+    <body>
+        {# Jinja2 템플릿 엔진은 구문(Statement)의 경우 '{% %}'로,
+            표현(Expression)은 '{{ }}'로 감싸서 표시합니다.
+            #}
+        <header>
+            <nav>
+                <a href="/">Flask to do list||</a>
+                <a href="/contack">문의||</a>
+                <a href="http://shop2school.com">샵투스쿨</a>
+            </nav>
+            <hr>
+          </header>
+
+          <main role = "main">
+
+          {% block content %}{% endblock %}
+          </main>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
