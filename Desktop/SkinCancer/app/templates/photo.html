@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>사진 등록</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <style>
+            @media only screen {
+                body {
+                    margin: 2em auto;
+                    max-width: 900px;
+                    color: rgb(55, 53, 47);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <article id="30ef8af3-5fdc-4463-970a-ec33158c7f7e" class="page sans">
+            <header><h1 class="page-title">사진 찍기, 불러오기</h1></header>
+            <div class="page-body"><input type="checkbox" name="result" value="result"><form method="POST" enctype="multipart/form-data" action="{{ url_for('upload_done') }}">
+<input type="file" name="file"/>
+<input type="submit"/>
+</form>
+                <p id="5ec17460-7c39-414d-89c2-486dff63b28f" class=""></p>
+            </div>
+        </article>
+    </body>
+</html>

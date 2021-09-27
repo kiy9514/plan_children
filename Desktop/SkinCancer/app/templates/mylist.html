@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>목록</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <style>
+            @media only screen {
+                body {
+                    margin: 2em auto;
+                    max-width: 900px;
+                    color: rgb(55, 53, 47);
+                }
+            }
+	</style>
+    </head>
+    <body>
+        <article id="30ef8af3-5fdc-4463-970a-ec33158c7f7e" class="page sans">
+            <header>
+                <h1 class="page-title">나의 기록</h1>
+            </header>
+            <div class="page-body">
+				<p id="5ec17460-7c39-414d-89c2-486dff63b28f" class=""></p>{% if length != 0%}{% for dot in dot_list %}<h3 id="5babd61e-9934-4a81-a987-33ac7333a0da" class="">{{dot[1]}}</h3>{% endfor %}{% else %}<h3 id="5babd61e-9934-4a81-a987-33ac7333a0da" class="">목록이 없습니다</h3>{% endif %}
+            </div>
+        </article>
+    </body>
+</html>
