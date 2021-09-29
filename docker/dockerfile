@@ -1,0 +1,30 @@
+ARG CUDA_VERSION=11.0
+ARG OS_VERSION=18.04
+ARG NVCR_SUFFIX=
+FROM nvidia/cuda:${CUDA_VERSION}-cudnn8-devel-ubuntu${OS_VERSION}${NVCR_SUFFIX}
+FROM python:3.7.11
+
+RUN apt-get update
+RUN apt-get install -y libgl1-mesa-glx
+RUN apt-get install -y libglib2.0-0
+RUN apt-get install -y ffmpeg libsm6 libxext6
+RUN apt-get update && apt-get install -y python3-opencv
+
+RUN pip3 install --upgrade pip
+RUN pip3 install tensorflow-gpu
+RUN pip3 install opencv-python
+RUN pip3 install pillow
+RUN pip3 install absl-py
+RUN pip3 install lxml
+RUN pip3 install tqdm
+RUN pip3 install matplotlib
+RUN pip3 install easydict
+RUN pip3 install pillow
+RUN pip3 install tensorflow_addons==0.9.1
+RUN pip3 install flask
+
+USER root
+RUN cd /
+RUN mkdir model
+WORKDIR /model
+ENTRYPOINT ["bash", "/model/run.sh"]
