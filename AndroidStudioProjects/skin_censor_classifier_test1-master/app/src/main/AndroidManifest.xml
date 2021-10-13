@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.ksa.skin_censor_classifier_test1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_point"
+        android:label=":Point"
+        android:roundIcon="@mipmap/icon_point_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skin_censor_classifier_test1">
+        <activity
+            android:name=".dangerous"
+            android:exported="true" />
+        <activity
+            android:name=".picture_state"
+            android:exported="true"
+            android:label="@string/title_activity_picture_state"
+            android:theme="@style/Theme.Skin_censor_classifier_test1.NoActionBar" />
+        <activity
+            android:name=".LoadingActivity"  />
+        <activity
+            android:name=".ListViewActivity"  />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/border.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/borderline.xml" value="0.36974358974358973" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/controller.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/dialog_bg.xml" value="0.36974358974358973" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/drawable/icon_dot_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/activity_dangerous.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/activity_listview.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/activity_loading.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/activity_main.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/activity_picture_state.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/dialog_bg.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/layout/record_list.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/JiHee/AndroidStudioProjects/skin_censor_classifier_test1-master/app/src/main/res/mipmap-anydpi-v26/icon_dot_round.xml" value="0.37552083333333336" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/activity_dangerous.xml" value="0.1" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/activity_picture_state.xml" value="0.17395833333333333" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/content_picture_state.xml" value="0.17395833333333333" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/fragment_first.xml" value="0.17395833333333333" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/layout/fragment_second.xml" value="0.17395833333333333" />
+        <entry key="..\:/skin_censor_classifier_test1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
