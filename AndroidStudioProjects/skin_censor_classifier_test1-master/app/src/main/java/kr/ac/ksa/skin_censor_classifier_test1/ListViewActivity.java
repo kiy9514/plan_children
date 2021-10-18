@@ -60,7 +60,7 @@ public class ListViewActivity extends AppCompatActivity {
         while (cursor.moveToNext()){
             byte[] bytes = cursor.getBlob(1);
             Bitmap bitmap = BitmapFactory.decodeByteArray( bytes, 0, bytes.length ) ;
-            adapter.addItem(cursor.getInt(0), new BitmapDrawable(getResources(), bitmap), cursor.getString(2), cursor.getString(3)) ;
+            adapter.addItem(cursor.getInt(0), new BitmapDrawable(getResources(), bitmap), cursor.getString(2), cursor.getString(3).split(" ")[0]) ;
         }
     }
 }

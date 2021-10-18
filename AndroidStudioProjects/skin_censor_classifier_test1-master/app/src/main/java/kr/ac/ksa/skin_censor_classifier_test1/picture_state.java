@@ -61,7 +61,11 @@ public class picture_state extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), LoadingActivity.class);
         startActivity(intent);
 
+        //결과를 받아오는 공간입니다.
         TextView txt_color_red = (TextView) findViewById(R.id.result);
+        fetchResult(txt_color_red);
+
+
 
         Spannable span = (Spannable) txt_color_red.getText();
 
@@ -229,6 +233,11 @@ public class picture_state extends AppCompatActivity {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         List<ResolveInfo> list = pm.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
         return list.size() > 0;
+    }
+
+    public void fetchResult (TextView textView) {
+        // restapi 서버 주소를 통해 결과를 textView 에 저장합니다.
+        // textView.setText(restapi + "의 확률로 " + restapi + "입니다.");
     }
 
 //    public void mainPageClick(View view) {
